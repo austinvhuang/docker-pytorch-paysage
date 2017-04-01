@@ -14,3 +14,5 @@ ENV LLVM_CONFIG /usr/lib/llvm-3.8/bin/llvm-config
 # Switch to python 3.6
 RUN conda install -y python=3.6
 ENV PATH="/opt/conda/bin/:${PATH}"
+
+CMD echo "Working Image"
